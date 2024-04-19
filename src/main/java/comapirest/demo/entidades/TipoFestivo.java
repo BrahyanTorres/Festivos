@@ -1,4 +1,4 @@
-package comapirest.demo.Entites;
+package comapirest.demo.entidades;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -11,7 +11,7 @@ import lombok.Data;
 @Data
 @Entity
 @Table(name = "Tipo")
-public class Tipo {
+public class TipoFestivo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -20,4 +20,3 @@ public class Tipo {
     private String tipo;
     
 }
-
